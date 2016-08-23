@@ -13,18 +13,16 @@
 <body class="w3-light-grey">
         @include('layout._header')
         <section class="edc-main">
-            <div class="w3-content w3-margin-left" style="max-width:1400px" >
-                <div class="w3-row">
-                    <div class="w3-col l7 m7  s12 ">
-                            @include('layout._about')
-                            @include('layout._surgeon')
-                            @include('layout._timing')
-                     </div>
-                    <div class="w3-col l5 m5 s12 ">
-                           @yield('content')
-                     </div>
-                 </div>
-             </div>
+            <div class="w3-row-padding w3-content" style="max-width:1400px">
+                <div class="w3-twothird">
+                    @include('layout._about')
+                    @include('layout._surgeon')
+                    @include('layout._timing')
+                </div>
+                <div class="w3-third">
+                    @yield('content')
+                </div>
+            </div>
         </section>
         @include('layout._footer')
         @include('layout._script')
