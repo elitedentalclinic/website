@@ -1,5 +1,5 @@
-      <div class="w3-card-4 w3-margin-left w3-margin-right">
-         <div class="w3-container w3-lime w3-padding">
+      <div class="w3-card-4">
+         <div class="w3-container w3-lime">
             <div><b>To Book An Appointment</b></div>
             <div class="w3-small">Request a dental appointment by filling out the form</div>
          @if(!session('status'))
@@ -40,9 +40,9 @@
             </div>
         @endif
             <div class="w3-row w3-margin">
-                <span class="w3-tag w3-purple"><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp; +91 997-204-2551</span>
-                <span class="w3-tag w3-green"><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp; +91 914-860-3980</span>
-                <span class="w3-tag w3-pink"><i class="fa fa-tty" aria-hidden="true"></i>&nbsp; +91 802-531-5575</span>
+                <span class="w3-tag w3-purple w3-small"><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp; +91 997-204-2551</span>
+                <span class="w3-tag w3-green w3-small"><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp; +91 914-860-3980</span>
+                <span class="w3-tag w3-pink w3-small"><i class="fa fa-tty" aria-hidden="true"></i>&nbsp; +91 802-531-5575</span>
             </div>
 
             <div class="w3-row w3-margin w3-center">

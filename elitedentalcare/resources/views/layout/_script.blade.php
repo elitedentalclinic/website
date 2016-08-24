@@ -7,14 +7,14 @@
                     header = document.querySelector("header");
             if (distanceY > shrinkOn) {
                 header.classList.add("smaller") ;
-                divheader.classList.remove("edc-header-img") ;
                 divheader.classList.add("edc-content-smaller") ;
+                divheader.classList.remove("edc-header-img") ;
             } else {
-                header.classList.remove("smaller") ;
+                header.classList.remove("smaller")
                 divheader.classList.remove("edc-content-smaller") ;
-                if(!divheader.classList.contains("edc-header-img"))
-                    divheader.classList.add("edc-header-img") ;
+                divheader.classList.add("edc-header-img") ;
             }
         });
     }
+    window.onload = init();
 </script>
