@@ -1,41 +1,40 @@
-body, header, section{ font-family: 'Roboto Condensed', sans-serif;}
-
-header{
-    height:280px;
-    z-index:10;
-    width: 100%;
-    overflow: hidden;
-}
-
-header.smaller {
-    height:140px;
-    z-index:10;
-    width: 100%;
-    overflow: hidden;
-}
-
-div.edc-header-img {
-    position: absolute;
-    background: #333  url('../image/banner.jpg') no-repeat center;
-    background-size: cover;
-    width: 100%;
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
     height: 100%;
- }
-
-div.edc-content-smaller {
-    background-color: #d81b60;
-    width: 100%;
-    height: 100% ;
-}
-.edc-main {
-    margin-top: 290px;
+    color: #777;
+    line-height: 1.8;
 }
 
-img.edc-title {
-    width: 100%;
-    height: auto;
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+.w3-elitefont {
+    font-family: 'Shadows Into Light Two', cursive;
 }
 
-.edc-hide{
-    display:none ;
+.bghome, .bgsurgeon, .bgappointment{
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bghome {
+    background-image: url('../image/banner.jpg');
+    min-height: 100%;
+}
+.bgsurgeon{
+    background-image: url('../image/dentist-bw.jpg');
+    min-height: 400px;
+}
+.bgappointment{
+    background-image: url('../image/timings.jpg');
+    min-height: 400px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .bghome, .bgsurgeon, .bgappointment{
+        background-attachment: scroll;
+    }
 }

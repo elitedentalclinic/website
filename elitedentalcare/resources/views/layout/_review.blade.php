@@ -1,3 +1,0 @@
-<div class="w3-card-4 w3-margin-left w3-margin-right">
-    Hai...
-</div>
