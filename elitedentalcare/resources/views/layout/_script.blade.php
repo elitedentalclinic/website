@@ -1,20 +1,11 @@
 <script>
+    window.onscroll = function() {init()};
     function init() {
-        window.addEventListener('scroll', function(e){
-            var divheader = document.querySelector("#elite-header") ;
-            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                    shrinkOn = 200,
-                    header = document.querySelector("header");
-            if (distanceY > shrinkOn) {
-                header.classList.add("smaller") ;
-                divheader.classList.add("edc-content-smaller") ;
-                divheader.classList.remove("edc-header-img") ;
-            } else {
-                header.classList.remove("smaller")
-                divheader.classList.remove("edc-content-smaller") ;
-                divheader.classList.add("edc-header-img") ;
-            }
-        });
+        var navbar = document.getElementById("elitenavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+        } else {
+            navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+        }
     }
-    window.onload = init();
 </script>
