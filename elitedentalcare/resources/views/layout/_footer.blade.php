@@ -6,6 +6,6 @@
            <i class="fa fa-facebook" aria-hidden="true"></i></a>
      </span>
      <span class="w3-small">
-       Copyright &copy; 2016 elite dental care. All rights
+       Copyright &copy; 2016 elite dental care. All rights reserved v2.1
       </span>
 </footer>
