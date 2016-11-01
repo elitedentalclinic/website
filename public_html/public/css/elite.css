@@ -5,10 +5,11 @@ body, html {
     line-height: 1.8;
 }
 
-.w3-wide {letter-spacing: 10px;}
+.w3-wide {letter-spacing: 5px;}
 .w3-hover-opacity {cursor: pointer;}
 .w3-elitefont {
-    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-shadow: 2px 2px 2px #aaa;
 }
 
 .bghome, .bgsurgeon, .bgappointment{
